@@ -90,3 +90,29 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+@media (max-width: 600px) {
+    .temp {
+        font-size: 30px;
+    }
+
+    .city {
+        font-size: 20px;
+    }
+
+    .details {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .details .col {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .card {
+        padding: 30px;
+        max-width: 500px;
+    }
+}
